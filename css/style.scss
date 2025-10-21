@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+// typography
+html{
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+}
+
+// layout
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 2rem;
+
+    th,td{
+        border: #3a3a3a solid 1px;
+        text-align: center;
+        height: 30px;
+        min-width: 30px;
+        padding: 0.6em;
+        }
+}
