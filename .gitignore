@@ -1,0 +1,29 @@
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# ビルドされたcss等
+*.css
+*.css.map
+# 例外設定を行う場合
+# logs/*
+# !logs/important.log
+
+# 環境設定ファイル
+.env
+
+# 一時ファイルやキャッシュ
+*.log
+*.tmp
+*.bak
+*.cache
+
+# composerを使う場合
+# /vendor/
+
+# IDEやエディタの設定
+.vscode/
+.idea/
+
+# データベースダンプ等
+*.sql
